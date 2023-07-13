@@ -2,20 +2,32 @@ body {
     background-color: bisque;
 }
 
-h1 {
-    color: black;
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: 5px;
+.panel {
+    display: flex;
+    width: 100%;
+    background-color: rgba(255, 106, 0, 0.452);
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.5);
 }
 
-h2 {
-    margin-top: 1px;
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: flex-start;
+    margin-right: 45%;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 div {
-    padding: 25px;
+    padding: 20px;
     margin-right: 25px;
     margin-left: 5px;
     margin-bottom: 25px;
@@ -51,4 +63,17 @@ td, th {
 
 .dldt {
     padding-top: 1px;
+}
+
+.opr {
+    font-size: 25px;
+}
+
+button {
+    font-size: 20px;
+    background-color: rgb(255, 133, 40);
+}
+
+input {
+    font-size: 15px;
 }

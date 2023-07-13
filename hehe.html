@@ -7,13 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Котята</h1>
+    <div class="panel">
+        <h1>Котята</h1>
+        <h3>Главная страница</h3>
+        <h3>Всё о котятах</h3>
+        <h3>Регистрация</h3>
+    </div>
+    
     <div style="display: flex;">
         <div>
             <div >
                 <h2>Кто же такие котята?</h2>
                 <dl class="dldt">
-                    <dt>киттенсы -</dt><dd>милашки на четырех лапках которые делают мяу мяу и мур мур
+                    <dt>Домашние котята - </dt><dd>очень социальные животные и обычно наслаждаются человеческим обществом
                     </dd>
                 </dl>
             </div>
@@ -36,14 +42,23 @@
                     <td>1 год</td>
                 </tr>
             </table>
+            <div class="opr">
+                Имя вашего котёнка: <input type="text"> <br>
+                Возраст (мес.): <input type="number" min="0" max="12"> <br>
+                Пароль:  <input type="password"> <br>
+                Пол: <input type="radio" name="gender" value="male">Мужской
+                <input type="radio" name="gender" value="female">Женский
+                <br>Фото котёнка: <input type="file">
+                <br><input type="submit">
+            </div>
         </div>
         <div class="imgdiv">
             <img src="https://sun7-22.userapi.com/impg/DlyetxFi6fiFXhCy9oQilZF3GpKBIkyXhLVXag/3rSA0qAmriU.jpg?size=1440x1440&quality=95&sign=a14046672dde0998bc7895d0e80238e4&type=album"
             height="500" width="500" class="img1">
             <p>отдыхалыш</p>
         </div>
+        
     </div>
-    
     
 </body>
 </html>
