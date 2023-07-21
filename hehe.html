@@ -6,9 +6,10 @@
     <title>Kittens web</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="page light-theme">
     <div class="panel">
         <h1>Котята</h1>
+        <button type="button" class="themebutton">Изменить тему</button>
         <h3>Главная страница</h3>
         <h3>Всё о котятах</h3>
         <h3>Регистрация</h3>
@@ -51,6 +52,16 @@
                 <br>Фото котёнка: <input type="file">
                 <br><input type="submit">
             </div>
+            <div style="display: flex;" class="subscription-blyat">
+                <p class="subscription-message">Оставьте свой e-mail если хотите быть котёнком</p>
+                <form action="" method="post" class="subscription">
+                    <div class="subscription-inner">
+                        <label class="subscription-label" for="subscription-email"></label>
+                        <input type="email" class="subscription-email" required id="subscription-email">
+                    </div>
+                    <button class="button subscription-button" type="submit">✔</button>
+                </form>
+            </div>
         </div>
         <div class="imgdiv">
             <img src="https://sun7-22.userapi.com/impg/DlyetxFi6fiFXhCy9oQilZF3GpKBIkyXhLVXag/3rSA0qAmriU.jpg?size=1440x1440&quality=95&sign=a14046672dde0998bc7895d0e80238e4&type=album"
@@ -59,6 +70,6 @@
         </div>
         
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
